@@ -37,6 +37,35 @@ div.modal {
     display: none;
 }
 
+/* ------------------Postagens-----------------------*/
+
+div#postagens{
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 5%;
+    margin: 3%;
+}
+
+
+div#postagem-1 {
+    /* grid-template-rows: 60%; */
+}
+
+div#postagem-1 img,
+div#postagem-2 img,
+div#postagem-3 img {
+    height: 100%;
+    width: 100%;
+}
+
+div#postagem-1 h5,
+div#postagem-2 h5,
+div#postagem-3 h5 {
+    text-align: center;
+}
+
+
+
 
 @media (max-width: 415px) {
 

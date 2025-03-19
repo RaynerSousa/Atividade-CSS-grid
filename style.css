@@ -64,8 +64,37 @@ div#postagem-3 h5 {
     text-align: center;
 }
 
+/* ------------------Itens e banner-----------------------*/
 
+div#itens-banner {
+    grid-template-columns: auto 40%;
 
+}
+
+div#itens {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 5%;
+    row-gap: 5%;
+}
+
+div#itens img {
+    height: 100%;
+    width: 100%;
+}
+
+div#itens h6 {
+    align-self: center;
+}
+
+div#banner img {
+    height: 100%;
+    width: 100%;
+}
+
+div#banner h6 {
+    text-align: center;
+}
 
 @media (max-width: 415px) {
 
